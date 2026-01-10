@@ -1,0 +1,7 @@
+ContextMenu_IT = {
+    ContextMenu_MVCK_ClaimVehicle = "Reclama Veicolo",
+	ContextMenu_MVCK_UnclaimVehicle = "Abbandona Veicolo",
+    ContextMenu_MVCK_UnsupportedVehicle = "Reclama Veicolo [Errore]",
+    ContextMenu_MVCK_ClientUserUI = "Gestore Veicoli Reclamati",
+    ContextMenu_MVCK_AdminUserUI = "Admin gestore Veicoli",
+}

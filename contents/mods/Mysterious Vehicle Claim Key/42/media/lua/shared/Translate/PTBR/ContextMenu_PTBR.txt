@@ -1,0 +1,7 @@
+ContextMenu_PTBR = {
+    ContextMenu_MVCK_ClaimVehicle = "Reivindicar Ve�culo",
+	ContextMenu_MVCK_UnclaimVehicle = "Liberar Ve�culo",
+    ContextMenu_MVCK_UnsupportedVehicle = "Reivindicar Ve�culo [Erro]",
+    ContextMenu_MVCK_ClientUserUI = "Gerenciar Ve�culos",
+    ContextMenu_MVCK_AdminUserUI = "Gerenciar Ve�culos [admin]",
+}

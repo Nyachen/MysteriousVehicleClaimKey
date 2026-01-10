@@ -1,3 +1,0 @@
-Items_PTBR = {
-    DisplayName_AVCSClaimOrb = "Misterioso Orbe de Propriedade de Ve�culo",
-}

@@ -1,0 +1,7 @@
+module
+{
+	sound MVCKClaimSound
+    {
+        clip { file = media/sound/mvck_weird_claim1.ogg, }
+    }
+}

@@ -1,9 +1,0 @@
-Tooltip_ES = {
-    Tooltip_AVCS_Needs = "Necesita",
-    Tooltip_AVCS_ClaimVehicle = "Reclamar Vehiculo",
-    Tooltip_AVCS_Unsupported = "Vehículo no soportado, reportalo a un administrador",
-    Tooltip_AVCS_Owner = "Propietario",
-    Tooltip_AVCS_Expire = "Expira en",
-    Tooltip_AVCS_Towed = "No se puede remolcar o ser remolcado",
-    Tooltip_AVCS_ExceedLimit = "Excede el límite de reclamos",
-}

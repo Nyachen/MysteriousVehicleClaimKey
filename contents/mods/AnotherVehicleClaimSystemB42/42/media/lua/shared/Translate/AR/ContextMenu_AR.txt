@@ -1,7 +1,0 @@
-ContextMenu_AR = {
-    ContextMenu_AVCS_ClaimVehicle = "Reclamar Vehículo",
-	ContextMenu_AVCS_UnclaimVehicle = "Liberar Vehículo",
-    ContextMenu_AVCS_UnsupportedVehicle = "Reclamar Vehículo [Error]",
-    ContextMenu_AVCS_ClientUserUI = "Administrador de Vehículos Reclamados",
-    ContextMenu_AVCS_AdminUserUI = "Administrador de Vehículos Reclamados (Admin)",
-}

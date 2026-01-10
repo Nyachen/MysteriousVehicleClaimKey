@@ -1,0 +1,11 @@
+module Base 
+{
+    item MysteriousVehicleClaimKey
+    {
+        ItemType = base:normal,
+        Weight = 0.1,
+        DisplayCategory = VehicleMaintenance,
+        Icon = MysteriousVehicleClaimKey,
+        WorldStaticModel = MVCK.MysteriousVehicleClaimKey,
+    }
+}

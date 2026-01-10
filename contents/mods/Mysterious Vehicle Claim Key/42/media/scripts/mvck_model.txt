@@ -1,0 +1,9 @@
+module Base
+{
+    model MVCKModel
+	{
+		mesh = WorldItems/BaseBall,
+		texture = WorldItems/MysteriousVehicleClaimKey,
+		scale = 0.05,
+	}
+}

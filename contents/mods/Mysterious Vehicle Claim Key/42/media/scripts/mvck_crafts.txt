@@ -1,0 +1,25 @@
+module Base {
+	craftRecipe Craft Mysterious Vehicle Claim Key
+	{
+		timedAction = MakingHammer_Surface,
+		Time = 60,
+		Tags = AnySurfaceCraft;Welding,
+    	Category = Metalworking,
+
+		inputs
+		{
+		item 10 [Base.GoldScrap] mode:destroy,
+		item 10 [Base.SilverScrap] mode:destroy,
+		item 10 [Base.CopperScrap] mode:destroy,
+		item 1 [Base.MetalPipe] mode:destroy,
+		item 5 [Base.Screws] mode:destroy,
+		item 1 tags[base:hammer] mode:keep flags[MayDegradeLight],
+		item 1 tags[base:pliers] mode:keep flags[MayDegradeLight],
+		}
+
+		outputs
+		{
+		item 1 MysteriousVehicleClaimKey,
+		}
+	}
+}

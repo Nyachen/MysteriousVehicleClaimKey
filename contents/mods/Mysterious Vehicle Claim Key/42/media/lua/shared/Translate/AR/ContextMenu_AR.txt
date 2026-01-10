@@ -1,0 +1,7 @@
+ContextMenu_AR = {
+    ContextMenu_MVCK_ClaimVehicle = "Reclamar Vehículo",
+	ContextMenu_MVCK_UnclaimVehicle = "Liberar Vehículo",
+    ContextMenu_MVCK_UnsupportedVehicle = "Reclamar Vehículo [Error]",
+    ContextMenu_MVCK_ClientUserUI = "Administrador de Vehículos Reclamados",
+    ContextMenu_MVCK_AdminUserUI = "Administrador de Vehículos Reclamados (Admin)",
+}

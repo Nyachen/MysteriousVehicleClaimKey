@@ -1,0 +1,73 @@
+VERSION = 1,
+
+option MVCK.AllowFaction
+{
+		type = boolean, default = true,
+		page = MVCK, translation = MVCK_AllowFaction,
+}
+
+option MVCK.AllowSafehouse
+{
+		type = boolean, default = true,
+		page = MVCK, translation = MVCK_AllowSafehouse,
+}
+
+option MVCK.MaxVehicle
+{
+		type = integer, min = 1, max = 999, default = 3,
+		page = MVCK, translation = MVCK_MaxVehicle,
+}
+
+option MVCK.RequireTicket
+{
+		type = boolean, default = true,
+		page = MVCK, translation = MVCK_RequireTicket,
+}
+
+option MVCK.ReturnTicket
+{
+		type = boolean, default = false,
+		page = MVCK, translation = MVCK_ReturnTicket,
+}
+
+option MVCK.UdderlyRespawn
+{
+		type = boolean, default = false,
+		page = MVCK, translation = MVCK_UdderlyRespawn,
+}
+
+option MVCK.ServerSideChecking
+{
+		type = boolean, default = false,
+		page = MVCK, translation = MVCK_ServerSideChecking,
+}
+
+option MVCK.ClaimTimeout
+{
+		type = integer, min = 1, max = 999, default = 240,
+		page = MVCK, translation = MVCK_ClaimTimeout,
+}
+
+option MVCK.MuleParts
+{
+		type = string, default =,
+		page = MVCK, translation = MVCK_MuleParts,
+}
+
+option MVCK.TrunkParts
+{
+		type = string, default = TrunkDoor;DoorRear,
+		page = MVCK, translation = MVCK_TrunkParts,
+}
+
+option MVCK.RebuildDB
+{
+		type = boolean, default = false,
+		page = MVCK, translation = MVCK_RebuildDB,
+}
+
+option MVCK.DisableCraftKey
+{
+		type = boolean, default = false,
+		page = MVCK, translation = MVCK_DisableCraftKey,
+}

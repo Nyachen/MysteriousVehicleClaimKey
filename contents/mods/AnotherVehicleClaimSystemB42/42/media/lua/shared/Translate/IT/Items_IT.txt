@@ -1,3 +1,0 @@
-Item_IT = {
-    DisplayName_AVCSClaimOrb = "Sfera Misteriosa di reclamo Veicolo",
-}

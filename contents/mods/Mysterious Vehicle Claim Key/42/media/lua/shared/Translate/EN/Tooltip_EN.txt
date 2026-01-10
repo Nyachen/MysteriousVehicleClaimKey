@@ -1,0 +1,9 @@
+Tooltip_EN = {
+    Tooltip_MVCK_Needs = "Needs",
+    Tooltip_MVCK_ClaimVehicle = "Claim Vehicle",
+    Tooltip_MVCK_Unsupported = "Vehicle unsupported, report to admin",
+    Tooltip_MVCK_Owner = "Owner",
+    Tooltip_MVCK_Expire = "Expires On",
+    Tooltip_MVCK_Towed = "Cannot be towed or towing",
+    Tooltip_MVCK_ExceedLimit = "Exceed Claim limit",
+}

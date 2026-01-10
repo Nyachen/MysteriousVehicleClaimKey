@@ -1,0 +1,9 @@
+Tooltip_ES = {
+    Tooltip_MVCK_Needs = "Necesita",
+    Tooltip_MVCK_ClaimVehicle = "Reclamar Vehiculo",
+    Tooltip_MVCK_Unsupported = "Vehículo no soportado, reportalo a un administrador",
+    Tooltip_MVCK_Owner = "Propietario",
+    Tooltip_MVCK_Expire = "Expira en",
+    Tooltip_MVCK_Towed = "No se puede remolcar o ser remolcado",
+    Tooltip_MVCK_ExceedLimit = "Excede el límite de reclamos",
+}
