@@ -35,4 +35,5 @@ IG_UI_EN = {
 	IGUI_AVCS_User_Permissions_lblAllowOpeningTrunk = "Allow opening trunk",
 	IGUI_AVCS_User_Permissions_lblAllowInflatTires = "Allow inflating tires",
 	IGUI_AVCS_User_Permissions_lblAllowDeflatTires = "Allow deflating tires",
+	IGUI_AVCS_User_Permissions_lblAllowSmashVehicleWindow = "Allow smash windows",
 }

@@ -88,7 +88,9 @@ end
 
 function AVCS.checkMaxClaim(playerObj)
 	-- Privileged users has no limit
-	if string.lower(playerObj:getAccessLevel()) ~= "none" then
+	local playerAccessLevel = string.lower(playerObj:getAccessLevel())
+
+	if playerAccessLevel == "admin" or playerAccessLevel == "moderator" or playerAccessLevel == "gm" then
 		return true
 	end
 

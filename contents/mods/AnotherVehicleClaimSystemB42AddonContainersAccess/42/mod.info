@@ -1,5 +1,0 @@
-name=Another Vehicle Claim System Addon - Containers Access
-id=AnotherVehicleClaimSystemB42AddonContainersAccess
-description=Another Vehicle Claim System Addon, check for containers access, this will increase client overhead aka consume additional CPU resources
-require=AnotherVehicleClaimSystemB42
-poster=poster.png

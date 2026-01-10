@@ -177,7 +177,11 @@ end
 
 function AVCS.ClientOnPreFillWorldObjectContextMenu(player, context, worldObjects, test)
     context:addOption(getText("ContextMenu_AVCS_ClientUserUI"), worldObjects, openClientUserManager, nil)
-	if (string.lower(getPlayer():getAccessLevel()) ~= "none") or (not isClient() and not isServer()) then
+
+	-- Check if user is administrative level
+	local playerAccessLevel = string.lower(getPlayer():getAccessLevel())
+
+	if (playerAccessLevel == "admin" or playerAccessLevel == "moderator" or playerAccessLevel == "gm") or (not isClient() and not isServer()) then
 		context:addOption(getText("ContextMenu_AVCS_AdminUserUI"), worldObjects, openClientAdminManager, nil)
 	end
 end

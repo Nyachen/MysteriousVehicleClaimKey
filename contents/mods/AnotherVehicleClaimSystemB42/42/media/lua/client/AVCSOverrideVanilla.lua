@@ -434,3 +434,36 @@ function ISOpenVehicleDoor:new(character, vehicle, part)
 	}
 	return temp
 end
+
+-- Copy and override the vanilla ISSmashWindow to block unauthorized users
+-- ISSmashWindow is used for vehicles and others windows
+if not AVCS.oISSmashWindow then
+    AVCS.oISSmashWindow = ISSmashWindow.new
+end
+
+function ISSmashWindow:new(character, window, vehiclePart)
+	-- validate if vehicle windows
+	if not vehiclePart then
+		return AVCS.oISSmashWindow(self, character, window, vehiclePart)
+	end
+
+	local checkResult = AVCS.getPublicPermission(vehiclePart:getVehicle(), "AllowSmashVehicleWindow")
+
+	if checkResult then
+		return AVCS.oISSmashWindow(self, character, window, vehiclePart)
+	end
+
+	checkResult = AVCS.checkPermission(character, vehiclePart:getVehicle())
+
+	checkResult = AVCS.getSimpleBooleanPermission(checkResult)
+
+	if checkResult then
+		return AVCS.oISSmashWindow(self, character, window, vehiclePart)
+	end
+
+	character:setHaloNote(getText("IGUI_AVCS_Vehicle_No_Permission"), 250, 250, 250, 300)
+	local temp = {
+		ignoreAction = true
+	}
+	return temp
+end

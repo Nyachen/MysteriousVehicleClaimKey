@@ -1,4 +1,4 @@
-IG_UI_ES = {
+IG_UI_AR = {
 	IGUI_AVCS_User_Manager_Title = "Administrador de Vehículos Reclamados",
 	IGUI_AVCS_User_Manager_btnUnclaim_Tooltip = "Liberar vehículo",
 	IGUI_AVCS_User_Manager_btnModify_Tooltip = "Modificar permisos",

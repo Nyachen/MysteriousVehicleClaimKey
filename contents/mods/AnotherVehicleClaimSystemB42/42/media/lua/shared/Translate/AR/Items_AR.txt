@@ -1,0 +1,3 @@
+Items_AR = {
+    DisplayName_AVCSClaimOrb = "Orbe de Reclamo Misterioso",
+}

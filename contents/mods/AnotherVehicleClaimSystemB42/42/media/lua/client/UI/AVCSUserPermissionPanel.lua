@@ -106,6 +106,7 @@ function AVCS.UI.UserPermissionPanel:createChildren()
     self:addSets(getText("IGUI_AVCS_User_Permissions_lblAllowOpeningTrunk"), "AllowOpeningTrunk")
     self:addSets(getText("IGUI_AVCS_User_Permissions_lblAllowInflatTires"), "AllowInflatTires")
     self:addSets(getText("IGUI_AVCS_User_Permissions_lblAllowDeflatTires"), "AllowDeflatTires")
+    self:addSets(getText("IGUI_AVCS_User_Permissions_lblAllowSmashVehicleWindow"), "AllowSmashVehicleWindow")
 end
 
 function AVCS.UI.UserPermissionPanel:new(x, y, width, height, vehicleID)
