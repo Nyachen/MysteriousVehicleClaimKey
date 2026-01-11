@@ -2,7 +2,7 @@ module Base
 {
     model MVCKModel
 	{
-		mesh = WorldItems/BaseBall,
+		mesh = WorldItems/Magazine,
 		texture = WorldItems/MysteriousVehicleClaimKey,
 		scale = 0.5,
 	}
